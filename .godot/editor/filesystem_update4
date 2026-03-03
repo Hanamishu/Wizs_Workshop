@@ -1,7 +1,2 @@
-res://Scenes/UI/pause_menu.tscn
-res://Scripts/Dummy_Script.gd
 res://Scenes/UI/TitleSc.tscn
-res://Scripts/TitleSc.gd
-res://Scenes/UI/setting.tscn
-res://Scenes/UI/Pause.tscn
 res://Scripts/PauseMenu.gd

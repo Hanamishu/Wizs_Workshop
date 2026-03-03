@@ -11,6 +11,7 @@ func _ready():
 	panel.visible = 0
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	
+	#L'if della smisurata infelicità e solitudine
 	if 
 	
 	res.pressed.connect(resume)

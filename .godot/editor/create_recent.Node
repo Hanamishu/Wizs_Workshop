@@ -1,3 +1,6 @@
-VBoxContainer
+Button
+Label
+HSlider
 Panel
 CanvasLayer
+VBoxContainer

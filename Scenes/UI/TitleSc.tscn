@@ -1,0 +1,73 @@
+[gd_scene format=3 uid="uid://b60pd3lnlxv45"]
+
+[ext_resource type="Script" uid="uid://scs5g5igce1g" path="res://Scripts/PauseMenu.gd" id="1_3t4vh"]
+
+[node name="PauseMenu" type="CanvasLayer" unique_id=718448338]
+script = ExtResource("1_3t4vh")
+
+[node name="Panel" type="Panel" parent="." unique_id=803601945]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+
+[node name="VBoxContainer" type="VBoxContainer" parent="Panel" unique_id=2000698444]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -172.0
+offset_top = -99.0
+offset_right = 172.0
+offset_bottom = 99.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MainMenu" type="VBoxContainer" parent="Panel/VBoxContainer" unique_id=1088920476]
+layout_mode = 2
+
+[node name="Resume" type="Button" parent="Panel/VBoxContainer/MainMenu" unique_id=674166214]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+text = "Resume"
+
+[node name="Reset" type="Button" parent="Panel/VBoxContainer/MainMenu" unique_id=237226323]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Reset"
+
+[node name="Settings" type="Button" parent="Panel/VBoxContainer/MainMenu" unique_id=1639130349]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Settings"
+
+[node name="Quit" type="Button" parent="Panel/VBoxContainer/MainMenu" unique_id=703574627]
+layout_mode = 2
+size_flags_horizontal = 4
+text = "Quit"
+
+[node name="SettingsMenu" type="VBoxContainer" parent="Panel/VBoxContainer" unique_id=429264223]
+layout_mode = 2
+size_flags_vertical = 4
+
+[node name="Audio" type="HBoxContainer" parent="Panel/VBoxContainer/SettingsMenu" unique_id=1781311375]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="Panel/VBoxContainer/SettingsMenu/Audio" unique_id=1008391771]
+layout_mode = 2
+text = "Master Volume:"
+
+[node name="MasterVolume" type="HSlider" parent="Panel/VBoxContainer/SettingsMenu/Audio" unique_id=1347970288]
+layout_mode = 2
+size_flags_horizontal = 3
+scrollable = false
+
+[node name="Back" type="Button" parent="Panel/VBoxContainer/SettingsMenu" unique_id=1379256568]
+layout_mode = 2
+text = "Back"

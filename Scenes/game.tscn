@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://br4iq8a13sxtl"]
+
+[ext_resource type="Texture2D" uid="uid://ci3d84pgfrq5a" path="res://Assets/shono_risharshato.png" id="1_ebmjs"]
+
+[node name="Node2D" type="Node2D" unique_id=966391539]
+
+[node name="ShonoRisharshato" type="Sprite2D" parent="." unique_id=284316916]
+position = Vector2(575.5, 315)
+scale = Vector2(2.2871485, 1.4413146)
+texture = ExtResource("1_ebmjs")

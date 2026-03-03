@@ -12,10 +12,16 @@ func _ready():
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	
 	#L'if della smisurata infelicità e solitudine
-	if 
+	#if 
 	
 	res.pressed.connect(resume)
+	settings.pressed.connect(sett)
 	
 	
 func resume():
 	panel.visible = 0
+
+
+func sett():
+	global.settingsStatus = 1
+	get_tree().change_scene_to_file("res://Scenes/UI/setting.tscn")

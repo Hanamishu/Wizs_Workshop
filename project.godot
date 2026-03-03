@@ -20,6 +20,10 @@ config/features=PackedStringArray("4.6", "GL Compatibility")
 run/low_processor_mode=true
 config/icon="res://icon.svg"
 
+[autoload]
+
+global="*uid://dmom6ynukklqq"
+
 [display]
 
 window/stretch/mode="viewport"

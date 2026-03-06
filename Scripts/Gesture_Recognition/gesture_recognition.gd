@@ -9,7 +9,7 @@ var lmb_pressed : bool
 var current_line : Line2D
 var lines_drawn := []
 
-@export var control_points_num := 24
+@export var control_points_num := 32
 var total_control_points := []
 
 #DEBUG FUNCTION TO CHECK IF CONTROL POINTS GET REGISTERED

@@ -1,0 +1,4 @@
+res://Scenes/game.tscn
+res://Scripts/Gesture_Recognition/gesture_recognition.gd
+res://Scenes/UI/settings.gd
+res://Scripts/PauseMenu.gd

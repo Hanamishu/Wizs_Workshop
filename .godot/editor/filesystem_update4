@@ -1,5 +1,1 @@
 res://Scenes/UI/setting.tscn
-res://Resources/Global_Variables.gd
-res://Scenes/UI/settings.gd
-res://Scripts/PauseMenu.gd
-res://Scripts/TitleSc.gd

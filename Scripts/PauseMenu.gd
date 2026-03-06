@@ -6,22 +6,30 @@ extends CanvasLayer
 @onready var settings: Button = $Panel/Settings
 @onready var btt: Button = $Panel/BTT
 
-
 func _ready():
 	panel.visible = 0
 	process_mode = Node.PROCESS_MODE_ALWAYS
 	
+	
 	#L'if della smisurata infelicità e solitudine
-	#if 
+	#if
 	
 	res.pressed.connect(resume)
 	settings.pressed.connect(sett)
 	
 	
+func _unhandled_input(event):
+	if event.is_action_pressed("pause"):
+		togglePause()
+
+func togglePause():
+	get_tree().paused = !get_tree().paused
+	panel.visible = !panel.visible
+
+
 func resume():
-	panel.visible = 0
-
-
+	togglePause()
+	
 func sett():
 	global.settingsStatus = 1
 	get_tree().change_scene_to_file("res://Scenes/UI/setting.tscn")

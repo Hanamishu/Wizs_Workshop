@@ -8,7 +8,6 @@ func _ready() -> void:
 	
 func goBack():
 	if global.settingsStatus:
-		get_tree().change_scene_to_file("res://Scenes/UI/Pause.tscn")
-
+		get_tree().change_scene_to_file("res://Scenes/game.tscn")
 	else:
 		get_tree().change_scene_to_file("res://Scenes/UI/TitleSc.tscn")

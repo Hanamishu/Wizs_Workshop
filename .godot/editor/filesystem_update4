@@ -1,2 +1,4 @@
 res://Scenes/UI/TitleSc.tscn
 res://Scripts/Gesture_Recognition/gesture_recognition.gd
+res://Scenes/UI/Pause.tscn
+res://Scripts/PauseMenu.gd

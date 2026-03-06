@@ -12,7 +12,11 @@ func _ready():
 	
 	
 	#L'if della smisurata infelicità e solitudine
-	#if
+	var unhappyness = randi_range(0, 1)
+	if unhappyness == 1:
+		print("Provo estreme infelicità e solitudine")
+	else:
+		print("Boh ci sta")
 	
 	res.pressed.connect(resume)
 	settings.pressed.connect(sett)

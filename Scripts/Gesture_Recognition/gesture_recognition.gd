@@ -67,7 +67,7 @@ func update_control_points():
 	if total_lines == 0:
 		return
 	
-	var control_points_per_line = int(round(float(control_points_num / total_lines))) #Checks to distribute the control points along the lines
+	var control_points_per_line = max(2, int(control_points_num / total_lines)) #Checks to distribute the control points along the lines
 	for line in lines_drawn:
 		var segmented = segmentation(line, control_points_per_line)
 		total_control_points += segmented

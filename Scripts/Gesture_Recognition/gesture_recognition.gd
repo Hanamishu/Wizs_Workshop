@@ -91,6 +91,17 @@ func update_control_points():
 		
 		points_to_keep.append(total_control_points[-1])
 		total_control_points = points_to_keep
+	
+	#Time to add new controlpoints if there's not enough my sister is fucking pissing me of she's playing her fuckass battery in my goddamn room fuck my life she could've just fucking set that up in the garage god fucking dammit i'm so full of this shit i'm going to kill myself some day or another i swear to fucking christ
+	var extra_needed = control_points_num - total_control_points.size()
+	if extra_needed > 0:
+		var center_point = find_center(total_control_points)
+		var radius = 10.0
+		for i in range(extra_needed):
+			var angle = (TAU / extra_needed) * i
+			var offset = Vector2(cos(angle), sin(angle)) * radius
+			total_control_points.append(center_point * offset)
+	print("Total amount of control points: " + (str(total_control_points.size())))
 
 func segmentation (points: Array, count: int) -> Array:
 	#THIS FUNCTION IS USED TO DIVIDE THE LINES INTO SEGMENTS WHICH GET USED TO CREATE CONTROL POINTS I WANT TO KILL MYSELF
@@ -132,3 +143,17 @@ func segmentation (points: Array, count: int) -> Array:
 	
 	result.append(points[-1])
 	return result
+
+#MINMAX THIS BITCH!!!uhidshflveashblkirugfjaloieuwsrfp
+func find_center(points: Array) -> Vector2:
+	var min_x = INF
+	var max_x = -INF
+	var min_y = INF
+	var max_y = -INF
+	for point in points:
+		min_x = min(min_x, point.x)
+		max_x = max(max_x, point.x)
+		min_y = min(min_y, point.y)
+		max_y = max(max_y, point.y)
+	
+	return Vector2((min_x + max_x) * 0.5, (min_y + max_y) * 0.5)

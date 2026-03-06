@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1772809951
+::res://::1772812509
 icon.svg::CompressedTexture2D/CompressedTexture2D::644112343732345196::1772467928::1772471454::1::::<><><>0<>0<>21c4d6edd6d249efd0bcc4998fdf5f01<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 README.md::TextFile::-1::1772470577::0::1::::<><><>0<>0<><>::
 Test.tscn::PackedScene::8099162704508995467::1772468713::0::1::::<><><>0<>0<><>::uid://ocqr4kaowgws::::res://icon.svg
@@ -24,11 +24,11 @@ Global_Variables.gd::GDScript::8031214708382117004::1772809934::0::1::::<>Node<>
 game.tscn::PackedScene::3640014023542023037::1772560844::0::1::::<><><>0<>0<><>::uid://b0lp6kl2751py::::res://Scenes/Gesture_Recognition/gesture_recognition.tscn
 ::res://Scenes/Gesture_Recognition/::1772560844
 gesture_recognition.tscn::PackedScene::4164816587938195854::1772560844::0::1::::<><><>0<>0<><>::uid://doc3x3urv3du6::::res://Scripts/Gesture_Recognition/gesture_recognition.gd
-::res://Scenes/UI/::1772809934
+::res://Scenes/UI/::1772810146
 Pause.tscn::PackedScene::4614801880849753108::1772560832::0::1::::<><><>0<>0<><>::uid://scs5g5igce1g::::res://Scripts/PauseMenu.gd
 setting.tscn::PackedScene::3158178116632555129::1772809934::0::1::::<><><>0<>0<><>::uid://bbnm0hksi6ras::::res://Scenes/UI/settings.gd
 settings.gd::GDScript::2484220070835992078::1772809934::0::1::::<>CanvasLayer<><>0<>0<><>::
-TitleSc.tscn::PackedScene::441355728131257639::1772561223::0::1::::<><><>0<>0<><>::uid://s56q7grenvub::::res://Scripts/TitleSc.gd
+TitleSc.tscn::PackedScene::441355728131257639::1772810146::0::1::::<><><>0<>0<><>::uid://s56q7grenvub::::res://Scripts/TitleSc.gd
 ::res://Scripts/::1772809934
 PauseMenu.gd::GDScript::1268674782535464570::1772809934::0::1::::<>CanvasLayer<><>0<>0<><>::
 TitleSc.gd::GDScript::1327243008378929477::1772809934::0::1::::<>CanvasLayer<><>0<>0<><>::

@@ -1,1 +1,2 @@
-res://Scenes/UI/TitleSc.tscn
+res://Scenes/game.tscn
+res://Scripts/Gesture_Recognition/gesture_recognition.gd
